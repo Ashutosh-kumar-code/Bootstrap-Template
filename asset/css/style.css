@@ -1,0 +1,713 @@
+body {
+    
+}
+.navbar{
+background-color: rgb(150, 150, 150) !important;
+}
+
+.logo {
+    
+    color: rgb(255, 7, 7);
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    margin-right: 30px;
+}
+
+.contbtn {
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:990px) {
+    .contbtn {
+        margin-bottom: 10px;
+    }
+}
+
+.navright {
+    margin-right: 50px;
+}
+
+.navright ul{
+    color: #000;
+}
+.navright ul li a{
+    color: #000;
+}
+.navmenu{
+color: #000 !important;
+font-size: 18px !important;
+}
+
+/* ------------------- hero portion---------------------- */
+.carousel-inner{
+    background: rgba(12, 12, 12, 0.986) !important; 
+}
+.carousel-inner p{
+    color: #fff;
+}
+.carousel-caption p{
+    font-size: 23px;
+}
+.carousel-item img {
+    height: 780px;
+    opacity: 0.6;
+}
+.carousel-caption{
+bottom: 200px;
+}
+.carousel-caption h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.carousel-caption p{
+    animation-duration: 2s;
+  animation-name: slidein ;
+  
+}
+@keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 200%;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width:760px) {
+    .carousel-item img{
+        height: 400px;
+    }
+    .carousel-item p{
+        display: none;
+    }
+    .carousel-item h1{
+        display: none;
+    }
+}
+
+/* ------------------- title portion--------------------------- */
+
+.title {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+}
+
+.title h3 {
+    font-size: 35px;
+    font-weight: bold;
+color: #000;
+
+}
+@media screen and (max-width:765px) {
+    .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* --------------------- cardportion-------------------------------- */
+.cardportion{
+    padding-bottom: 40px;
+}
+.cardbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.cardbtn1 {
+    background-color: rgb(219, 219, 219) !important;
+    color: black !important;
+    border: 2px solid rgb(153, 153, 153) !important;
+    margin-left: 100px;
+}
+.cardbtn1:hover{
+    background-image: linear-gradient(180deg, rgb(248, 247, 247), rgb(190, 190, 190));
+}
+.carddata1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardnum {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px ;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 30px;
+}
+
+.cardnum:hover {
+    background-color: rgb(247, 247, 247);
+    border-color: rgb(133, 133, 133);
+    box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
+
+.cardnum img {
+    margin-top: 20px;
+    height: 200px;
+    width: 260px;
+    border-radius: 20px;
+}
+.cardnum img:hover{
+    border-radius: 20px;
+}
+@media screen and (max-width:1046px) {
+    .cardnum{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:918px) {
+    .cardedit{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+@media screen and (max-width:935px){
+    .cardnum{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:770px) {
+    .cardnum{
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width:766px) {
+    .cardportion{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cardbtn1{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .cardbutton{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        
+    }
+    .cardedit{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* ------------------ ableportion----------------------- */
+.tableportion{
+   
+    background-image: linear-gradient(180deg, rgb(240, 240, 240), rgb(255, 253, 253));
+    padding-bottom: 40px;
+    padding-top: 30px;
+
+}
+
+.tableportion h2 {
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.tableportion p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+table {
+    margin-top: 20px;
+    background-color: rgb(187, 187, 187) !important;
+    text-align: center;
+}
+
+/* ---------------------------- shape portion------------------------- */
+.shapeportion {
+  
+    background-image: url(/asset/images/try-3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    opacity: 0.9;
+    
+}
+
+.shape2port{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgba(24, 24, 24, 0.733); 
+   
+}
+.shapeportion h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+  
+    color: #fff;
+}
+
+.shapeportion #p{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.shapeportion #p:hover{
+    color:rgb(226, 226, 226);
+}
+
+@media screen and (max-width:765px) {
+    .shapeportion #p{
+        display: flex !important;
+        flex-direction: row !important;
+justify-content: center !important;
+align-items: center !important;
+margin-left: 100px;
+    }
+}
+@media screen and (max-width:470px){
+    .shapeportion #p{
+    margin-left: 65px;
+    }
+}
+.shape {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.square {
+    padding: 25px;
+    background: rgb(233, 233, 233);
+    border: 2px solid #000;
+    box-shadow: 1px 2px 5px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  transition: .5s ease;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.offcanvas{
+    color: green;
+}
+.rectangle{
+    margin-left: 50px;
+    padding: 25px;
+    border-radius: 65px;
+    border: 2px solid #000;
+    box-shadow: 1px 2px 5px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    background: rgb(228, 228, 228);
+    transition: .5s ease;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.parallelogram {
+	margin-left: 50px;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-start-start-radius: 85px;
+    border-end-end-radius: 76px;
+	
+    border: 2px solid #000;
+    box-shadow: 1px 2px 5px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: rgb(230, 230, 230);
+    transition: .5s ease;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.square:hover, .rectangle:hover, .parallelogram:hover{
+    box-shadow: 5px 5px 5px rgb(155, 154, 154);
+    
+}
+
+@media screen and (max-width:1000px) {
+    .shape{
+        display: flex;
+        flex-direction: column;
+    }
+    .rectangle, .parallelogram{
+        margin-left: 0px;
+    }
+}
+
+/* -------------------- modal portion-----------------------  */
+
+.modalportion{
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+.modalportion img{
+    height: 400px;
+    width: 350px;
+}
+.modalportion img:hover{
+    transition: 0.8s;
+transform: rotate(360deg);
+}
+.cardcontent #h5{
+    background-color: rgb(109, 109, 109) !important;
+    border: 1px solid rgb(133, 129, 130);
+    color: #000;
+
+    
+   
+}
+@keyframes bondm{
+25%{
+    border: 2px solid rgb(97, 97, 96);
+   
+}
+50%{
+    border: 3px solid rgb(156, 156, 156);
+}
+75%{
+    border: 4px solid rgb(197, 197, 196);
+}
+100%{
+    border:5px solid rgb(226, 226, 225);
+   
+}
+}
+.cardcontent #new{
+    background-color: #000 !important;
+    padding: 8px !important;
+    animation: bondm 1s infinite;
+}
+.modalportion #h2{
+   font-size: 30px;
+   
+}
+.modalportion #h2:hover{
+    color: #fff;
+}
+
+.modalportion .login{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(41, 42, 46);
+    border: 1px solid rgb(139, 133, 135);
+}
+.modalportion .login:hover{
+    border: 2px solid rgb(19, 18, 18);
+    background-color: rgb(80, 79, 80);
+}
+.cardcontent{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:1202px) {
+    .modeledit{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardcontent{
+        margin-top: 20px;
+    }
+    
+.modalportion img{
+    height: 200px;
+    width: 180px;
+    margin-left: 60px;
+}
+}
+@media screen and (max-width:986px) {
+    .modalportion img{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:525px) {
+    .modalportion img{
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width:382px) {
+    .modalportion img{
+        margin-left: -30px;
+    }
+}
+@media screen and (max-width:328px) {
+    .modalportion img{
+        margin-left: -45px;
+    }
+}
+/* ------------------ faq portion----------------------- */
+.faq{
+    background-image: url(/asset/images/back-try-1.jpg);
+    background-size: cover;
+   background-position: right;
+   background-repeat: no-repeat;
+ margin-bottom: 40px !important;
+
+}
+.overlayfaq{
+    background: rgba(20, 20, 20, 0.778); 
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.faq #h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: #fff;
+    /* color: #000; */
+    text-shadow: 2px 4px 5px grey;
+}
+.faqaccord{
+    margin-top: 10px;
+}
+.downfaq{
+    margin-top: 10px;
+}
+.accordion-button:focus {
+    
+    border-color: #1d1d1f;
+    color: #000 !important;
+    box-shadow: 0 0 0 .25rem rgba(38, 39, 41, 0.25);
+  }
+.accordion-button{
+    background-color: rgb(236, 236, 236) !important;
+    /* border: 2px solid #000; */
+    color: #000 !important;
+    box-shadow: 2px 4px 5px grey;
+}
+
+.faqaccord .accordion-collapse{
+    background-color: rgb(214, 214, 211);
+}
+
+@media screen and (max-width:765px) {
+    .downfaq{
+        display: flex;
+        flex-direction: column;
+    }
+    .topfaq{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ------------------------- secondlast portion--------------------------- */
+.secondlast{
+   
+    padding-top: 60px;
+   
+    background-image: url(/asset/images/side-try1.png);
+  
+    background-repeat:  no-repeat;
+    
+   background-position: bottom left;
+}
+@media screen and (max-width:1690px) {
+    .secondlast{
+        background-image: none;
+    }
+}
+.dividepart{
+    padding-top: 40px;
+   
+    padding-bottom: 200px;
+}
+#sndh2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 25px;
+    text-shadow: 2px 4px 5px grey;  
+}
+.sndlastparts img{
+    margin-top: 20px;
+    height: 200px;
+}
+
+#v-pills-home-tab, #v-pills-profile-tab, #v-pills-messages-tab, #v-pills-settings-tab{
+    background-image: linear-gradient(180deg, rgb(248, 242, 242), rgb(170, 170, 170));
+    color: #000;
+    margin-bottom: 25px;
+}
+#v-pills-home-tab:hover, #v-pills-profile-tab:hover, #v-pills-messages-tab:hover, #v-pills-settings-tab:hover{
+    background-image: linear-gradient(180deg, rgb(172, 171, 171), rgb(233, 233, 233));
+}
+.sndlastparts img:hover{
+    height: 201px;
+   box-shadow: 3px 4px 5px grey;  
+}
+
+.sndlastparts p{
+    margin-top:30px;
+}
+.sndlastparts p:hover{
+    text-shadow: 1px 4px 5px grey; 
+}
+
+@media screen and (max-width:1198px) {
+    .secondlast{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+    .sndmainpart{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .lastport img{
+        height: 160px;
+        margin-bottom: 20px;
+    }
+    .sndlstbtn{
+        display: flex !important;
+        flex-direction: row !important;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+    .sndlastparts p{
+        text-align:  center !important;
+    }
+}
+
+@media screen and (max-width:991px){
+    .sndlastparts{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .lstimgcol {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+@media screen and (max-width:668px) {
+    .sndlastparts img{
+       
+        height: 160px;
+    }   
+    .sndlastparts p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:472px){
+    .sndlstbtn{
+        display: flex !important;
+        flex-direction: column !important;
+      
+    }
+    .sndlstbtn button{
+        margin-bottom: 30px;
+    }
+}
+
+/* ----------------- footer portion----------------------- */
+
+.footer{
+    padding-top: 55px;
+    padding-bottom: 55px;
+    text-align: center;
+    background-color: rgb(41, 40, 40);
+}
+.footer h2{
+color: #fff;
+}
+
+.footer a, .footer p, .footer p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 2px;
+    color: rgb(165, 165, 165);
+}
+.footer a:hover{
+  text-decoration: underline;
+}
+
+.footer i{
+    color: #fff;
+    margin-right: 5px;
+}
+.footer p1{
+    display: flex ;
+    flex-direction: row;
+}
+
+#picon{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+#picon i{
+    margin-right: 20px;
+}
+
+#footpara{
+    /* width: 400px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
